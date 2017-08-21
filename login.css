@@ -1,0 +1,229 @@
+
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+.aside {
+    background-color: #3093c3;
+    padding: 15px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 17px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.footer {
+    background-color: #3093c3;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 800px) {
+    /* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 1200px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+/*
+
+div.formcontainer {
+  margin: auto;
+  height:auto;
+  width: 50%;
+}
+form {
+ }
+
+/* Full-width inputs */
+/*
+input[type=text], input[type=password],input[type=checkbox] {
+    width: 60%;
+    padding: 10px 15px;
+    margin: 8px 10%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: 2px solid #f44336;
+}
+
+
+/* Set a style for all buttons */
+/*
+button {
+    width:50%;
+    background-color: #f44336;
+    padding: 10px 15px;
+    color: white;
+    margin: 8px 20%;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid #f44336;
+	-webkit-transition:0.3s ease;
+}
+
+/* Add a hover effect for buttons */
+/*
+button:hover {
+    background-color: white;
+    color: #f44336;
+    opacity: 0.8;
+}
+
+div.dataform {
+  border: 3px solid #111111;
+
+}
+
+
+/* Center the avatar image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* Avatar image */
+/*
+img.avatar {
+    width: 70%;
+}
+
+/* Add padding to containers */
+/*
+.container1 {
+  display: block;
+  width:30%;
+  height:auto;
+  float: left;
+}
+.container2 {
+  float: right;
+  display:inline;
+    width:70%;
+}
+
+ul {
+    list-style: none;
+    
+}
+/* The "Forgot password" text */
+/*
+div.psw {
+    float: right;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+/*
+@media screen and (max-width: 1450px) {
+    div.psw {
+        display: block;
+        float: none;
+    }
+    .cancelbtn {
+        width: 100%;
+    }
+    div.formcontainer {
+      margin: auto;
+      height:auto;
+      width: 100%;
+    }
+}
+
+
+
+
+#templatemo_menu {
+    padding: 14px 10px;
+    background: #003F87;
+    overflow: hidden;
+    display:block
+     }
+
+ #templatemo_menu1 {
+    padding: 14px 10px;
+    background:  #003F87;
+    overflow: hidden;
+    height:100px;
+     display:block;
+}
+
+    #templatemo_menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    height: 129px;
+}
+
+        #templatemo_menu ul li {
+            width: 200px;
+            height: 41px;
+            padding: 0 30% 0 20px;
+            background: #003F87;
+}
+
+            #templatemo_menu ul li a {
+                display: block;
+                width: 170px;
+                height: 33px;
+                padding: 10px 0 0 30px;
+                color: #9fa2a4;
+                font-size: 16px;
+                text-decoration: none;
+                font-weight: normal;
+                background: url(../images/templatemo_menu_list_icon.jpg) left center no-repeat;
+                outline: none;
+            }
+
+    #templatemo_menu li .current {
+        color: #ffffff;
+    }
+
+    #templatemo_menu li a:hover {
+        color: #0D4F8B;
+        font-weight: bold;
+    }
+
+    #templatemo_menu .last {
+        margin-bottom: 0px;
+    }
+*/

@@ -1,0 +1,119 @@
+/* CSS Document */
+*{
+box-sizing:border-box;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+}
+nav ul{
+height:auto;
+list-style-type:none;
+margin:0;
+padding:0;
+}
+nav ul li{
+float:right;
+}
+nav ul li a{
+text-align:center;
+text-decoration:none;
+display:block;
+padding:1.5%;
+color:#F44336;
+}
+nav ul li a:hover{
+background:#F44336;
+color:#FFFFFF;
+-webkit-transition:0.5s ease;
+}
+ul{
+list-style-type:none;
+}
+table#assessee{
+background:#FFFFF;
+border:thin solid #000000;
+}
+table#assessee tr td{
+font-size:1;
+color:#000000;
+border-bottom:thin solid #000000;
+}
+table#questions th{
+text-transform:uppercase;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+[class*="col-"] {
+    float: left;
+}
+header{
+/*background:#FFFFFF;*/
+color:black;
+text-transform:uppercase;
+text-align:center;
+}
+h1#bkgndTxt,h3#bkgndTxt{
+background-color:#F44336;
+color:#FFFFFF;
+}
+div{
+border:2px solid black;
+}
+form#login{
+color:blue;
+}
+input[type=text],input[type=password]{
+border:thin solid blue;
+border-radius:5px;
+width:30%;
+}
+button{
+cursor:pointer;
+padding:1%;
+width:40%;
+background:#f44336;/*ffffff*/
+color:#ffffff;/*f44336*/
+border:thin solid #f44336;/*f44336*/
+text-transform:uppercase;
+-webkit-transition:0.3s ease;
+}
+button:hover{
+background:#ffffff;/*f44336*/
+color:#f44336;/*ffffff*/
+}
+div#welcomeNotice{
+color:blue;
+text-align:center;
+}
+/* Center the avatar image inside this container */
+.imgcontainer {
+	size:landscape;
+    text-align: center;
+	border:none;
+    /*margin: 24px 0 12px 0;*/
+}
+span#dispName{
+color:#F44336;
+}

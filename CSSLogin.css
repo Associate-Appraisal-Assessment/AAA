@@ -1,0 +1,219 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2017, 1:05:13 PM
+    Author     : Adarsh
+*/
+
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/*For mobile phones*/
+[class*="col-"] {
+    width: 100%;
+}
+
+/*For Tablets */
+@media only screen and (min-width: 800px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+
+/*For Desktops*/
+@media only screen and (min-width: 1200px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
+
+img.icon{
+    height: 150px;
+    width: 250px;
+}
+
+.font1{
+    font-family: sans-serif;
+    font-size: 200%;
+    font-weight: normal;
+    color: red;
+}
+
+body.login {
+  font-family: 'Roboto', sans-serif;
+}
+
+div.formcontainer {
+  margin: auto;
+  height:auto;
+  width: 50%;
+}
+
+img.avatar {
+    width: 200%;
+}
+
+ul.list1{
+    list-style-type: none;
+}
+
+label.login {
+    margin:auto;
+    text-align: center;
+}
+
+/*Form Design*/
+form {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  background: rgba(130,130,130,.3);
+  padding: 20px 22px;
+  border: 1px solid;
+  border-top-color: rgba(255,255,255,.4);
+  border-left-color: rgba(255,255,255,.4);
+  border-bottom-color: rgba(60,60,60,.4);
+  border-right-color: rgba(60,60,60,.4);
+}
+
+form input {
+  width: 450px;
+  border: 1px solid;
+  border-bottom-color: rgba(255,255,255,.5);
+  border-right-color: rgba(60,60,60,.35);
+  border-top-color: rgba(60,60,60,.35);
+  border-left-color: rgba(80,80,80,.45);
+  background-color: rgba(0,0,0,.2);
+  background-repeat: no-repeat;
+  padding: 8px 24px 8px 10px;
+  font: bold .875em/1.25em "Open Sans Condensed", sans-serif;
+  letter-spacing: .075em;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0,0,0,.1);
+  margin-bottom: 19px;
+}
+
+form input:focus { background-color: rgba(0,0,0,.4); }
+
+form input[type=reset] {
+  width: 248px;
+  margin-bottom: 0;
+  color: white;
+  letter-spacing: .05em;
+  text-shadow: 0 1px 0 #133d3e;
+  text-transform: uppercase;
+  background: #225556;
+  border-top-color: #9fb5b5;
+  border-left-color: #608586;
+  border-bottom-color: #1b4849;
+  border-right-color: #1e4d4e;
+  cursor: pointer;
+}
+
+/*Fonts*/
+.fontstyle1  {        
+    font-family: "Courier New", Courier, monospace;
+    font-size:250%;
+    font-weight:normal;
+    text-align:left;
+    color: #808080;
+}
+
+.fontstyle2   {
+    font-family: Arimo;
+    font-weight:lighter;
+    color: #333333;
+    font-size: 300%;
+}
+
+.fontstyle3  {
+    font-weight: normal;
+    font-family: "Imprint MT Shadow";
+    font-size: large;
+}
+
+.fontstyle4 
+{
+    font-family: Arimo;
+    font-weight:normal;
+    color: #333333;
+    font-size: 200%;
+}
+
+.fontstyle5
+    {
+        font-weight: normal;
+        font-family: "Microsoft JhengHei Light";
+        font-size: 30pt;
+    }
+        
+.fontstyle6{
+    font-weight: bolder;
+    color:white;
+    font-family: Arimo;
+    font-weight:lighter;
+    font-size: 300%;
+        }
+        
+.fontstyle7
+{
+    font-family: Arimo;
+    font-weight:normal;
+    color: #333333;
+    font-size: 200%;
+    color:White;
+    text-align:center;
+}
+
+/*footer*/
+.footer {
+    background-color: red;
+    color: #ffffff;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+}
+/*
+div.content {
+  float: right;
+  width: 75%;
+  height: auto;
+}
+
+#templatemo_menu_wrapper {
+    float: left;
+    width: 25%;
+    height: 350px;
+}*/
